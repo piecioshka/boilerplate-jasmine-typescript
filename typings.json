@@ -1,0 +1,6 @@
+{
+    "globalDevDependencies": {
+        "node": "registry:env/node#6.0.0+20170213133316",
+        "jasmine": "registry:dt/jasmine#2.5.0+20170207112528"
+    }
+}
