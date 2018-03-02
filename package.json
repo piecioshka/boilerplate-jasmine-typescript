@@ -1,15 +1,17 @@
 {
     "private": true,
     "name": "test-jasmine-typescript",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "scripts": {
-        "clear": "rm -rf node_modules/ typings/",
-        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
-        "postinstall": "typings install"
+        "clear:all": "rm -rf node_modules/ npm-debug.log",
+        "pretest": "clear",
+        "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
     },
     "devDependencies": {
-        "jasmine": "^2.5.3",
-        "ts-node": "^2.1.0",
-        "typings": "^2.1.0"
+        "@types/jasmine": "^2.8.6",
+        "@types/node": "^9.4.6",
+        "jasmine": "^3.1.0",
+        "ts-node": "^5.0.1",
+        "typescript": "^2.7.2"
     }
 }
