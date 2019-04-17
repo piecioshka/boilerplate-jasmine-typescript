@@ -1,17 +1,17 @@
 # test-jasmine-typescript
 
-> :ledger: Test project with Jasmine & TypeScript
+:ledger: Test project with Jasmine & TypeScript
 
 ## Setup
 
-```
-$ npm install
+```bash
+npm install
 ```
 
 ## Unit tests
 
-```
-$ npm test
+```bash
+npm test
 ```
 
 ## License
