@@ -2,17 +2,15 @@
 
 :ledger: Test project with Jasmine & TypeScript
 
-## Setup
-
-```bash
-npm install
-```
-
 ## Unit tests
 
 ```bash
 npm test
 ```
+
+## Related
+
+* [test-mocha-typescript](https://github.com/piecioshka/test-mocha-typescript)
 
 ## License
 
