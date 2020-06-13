@@ -3,7 +3,12 @@
 [![travis-ci](https://api.travis-ci.org/piecioshka/boilerplate-jasmine-typescript.svg?branch=master)](https://travis-ci.org/piecioshka/boilerplate-jasmine-typescript)
 [![coveralls](https://coveralls.io/repos/github/piecioshka/boilerplate-jasmine-typescript/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/boilerplate-jasmine-typescript?branch=master)
 
-:ledger: Test project with Jasmine & TypeScript
+🍴 Starter with Jasmine & TypeScript
+
+## Features
+
+* :white_check_mark: Jasmine `v3.5.0`
+* :white_check_mark: TypeScript `v3.9.5`
 
 ## Unit tests
 
@@ -13,7 +18,8 @@ npm test
 
 ## Related
 
-* [test-mocha-typescript](https://github.com/piecioshka/test-mocha-typescript)
+* [boilerplate-mocha-typescript](https://github.com/piecioshka/boilerplate-mocha-typescript)
+* [boilerplate-jest-typescript](https://github.com/piecioshka/boilerplate-jest-typescript)
 
 ## License
 
