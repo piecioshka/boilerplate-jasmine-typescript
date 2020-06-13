@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "test-jasmine-typescript",
+    "name": "boilerplate-jasmine-typescript",
     "version": "2.0.0",
     "scripts": {
         "clear": "rm -rf dist/ coverage/ .nyc_output/",

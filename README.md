@@ -1,7 +1,7 @@
-# test-jasmine-typescript
+# boilerplate-jasmine-typescript
 
-[![travis-ci](https://api.travis-ci.org/piecioshka/test-jasmine-typescript.svg?branch=master)](https://travis-ci.org/piecioshka/test-jasmine-typescript)
-[![coveralls](https://coveralls.io/repos/github/piecioshka/test-jasmine-typescript/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/test-jasmine-typescript?branch=master)
+[![travis-ci](https://api.travis-ci.org/piecioshka/boilerplate-jasmine-typescript.svg?branch=master)](https://travis-ci.org/piecioshka/boilerplate-jasmine-typescript)
+[![coveralls](https://coveralls.io/repos/github/piecioshka/boilerplate-jasmine-typescript/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/boilerplate-jasmine-typescript?branch=master)
 
 :ledger: Test project with Jasmine & TypeScript
 
