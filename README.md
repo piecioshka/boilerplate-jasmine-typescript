@@ -7,13 +7,19 @@
 
 ## Features
 
-* :white_check_mark: Jasmine `v3.5.0`
-* :white_check_mark: TypeScript `v3.9.5`
+* :white_check_mark: Jasmine `v3.10.0`
+* :white_check_mark: TypeScript `v4.5.2`
 
 ## Unit tests
 
 ```bash
 npm test
+```
+
+## Code Coverage
+
+```bash
+npm run coverage
 ```
 
 ## Related

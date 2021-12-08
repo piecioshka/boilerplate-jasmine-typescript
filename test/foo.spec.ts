@@ -1,15 +1,16 @@
-import { Foo } from '../src/foo';
+import { Foo } from "../src/foo";
 
-describe('Foo', () => {
-    it('bar', () => {
-        expect(typeof Foo.bar).toEqual('function');
-        expect(Foo.bar()).toEqual('bar');
-    });
+describe('Module "Foo"', () => {
+  it("sync", () => {
+    expect(typeof Foo).toEqual("function");
+    expect(typeof Foo.bar).toEqual("function");
+    expect(Foo.bar()).toEqual("bar");
+  });
 
-    it('async', (done) => {
-        setTimeout(() => {
-            expect(1).toEqual(1);
-            done();
-        }, 3000);
-    });
+  it("async", (done) => {
+    setTimeout(() => {
+      expect(1).toEqual(1);
+      done();
+    }, 100);
+  });
 });
