@@ -26,6 +26,7 @@ npm run coverage
 
 * [boilerplate-mocha-typescript](https://github.com/piecioshka/boilerplate-mocha-typescript)
 * [boilerplate-jest-typescript](https://github.com/piecioshka/boilerplate-jest-typescript)
+* [boilerplate-karma-babel](https://github.com/piecioshka/boilerplate-karma-babel)
 
 ## License
 
