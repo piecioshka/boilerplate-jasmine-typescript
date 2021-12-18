@@ -1,22 +1,27 @@
 {
-    "private": true,
-    "name": "boilerplate-jasmine-typescript",
-    "version": "2.0.0",
-    "scripts": {
-        "clear": "rm -rf dist/ coverage/ .nyc_output/",
-        "clear:all": "rm -rf node_modules/ npm-debug.log && npm run clear",
-        "test": "jasmine --reporter=jasmine-console-reporter --config=jasmine.json",
-        "coverage": "nyc npm run test && nyc report --reporter=html",
-        "coveralls": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
-    },
-    "devDependencies": {
-        "@types/jasmine": "^3.10.2",
-        "@types/node": "^16.11.12",
-        "coveralls": "^3.1.1",
-        "jasmine": "^3.10.0",
-        "jasmine-console-reporter": "^2.0.1",
-        "nyc": "^15.1.0",
-        "ts-node": "^10.4.0",
-        "typescript": "^4.5.2"
-    }
+  "private": true,
+  "name": "boilerplate-jasmine-typescript",
+  "description": "",
+  "version": "2.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "test": "jasmine --reporter=jasmine-console-reporter --config=jasmine.json",
+    "coverage": "nyc npm run test && nyc report --reporter=html",
+    "coveralls": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.10.2",
+    "@types/node": "^17.0.0",
+    "coveralls": "^3.1.1",
+    "jasmine": "^3.10.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
 }
