@@ -8,7 +8,7 @@
 ## Features
 
 * :white_check_mark: Jasmine `v3.10.0`
-* :white_check_mark: TypeScript `v4.5.2`
+* :white_check_mark: TypeScript `v4.5.4`
 
 ## Unit tests
 
