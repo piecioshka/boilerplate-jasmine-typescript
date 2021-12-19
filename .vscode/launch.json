@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Testing",
       "program": "${workspaceFolder}/node_modules/.bin/jasmine",
-      "args": ["--config=jasmine.json"],
+      "args": ["--reporter=jasmine-console-reporter", "--config=jasmine.json"],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
     }
