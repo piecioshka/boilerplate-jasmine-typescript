@@ -10,7 +10,8 @@
     "url": "https://piecioshka.pl/"
   },
   "scripts": {
-    "test": "jasmine --reporter=jasmine-console-reporter --config=jasmine.json",
+    "test": "jasmine --config=jasmine.json",
+    "test:fancy": "jasmine --reporter=jasmine-console-reporter --config=jasmine.json",
     "coverage": "nyc npm run test && nyc report --reporter=html",
     "coveralls": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
   },
