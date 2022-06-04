@@ -7,8 +7,8 @@
 
 ## Features
 
-* :white_check_mark: Jasmine `v3.10.0`
-* :white_check_mark: TypeScript `v4.5.4`
+* :white_check_mark: Jasmine `v4.1.0`
+* :white_check_mark: TypeScript `v4.7.3`
 
 ## Unit tests
 
@@ -44,4 +44,4 @@ npm run coverage
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2017-2021
+[The MIT License](https://piecioshka.mit-license.org) @ 2017-2022
