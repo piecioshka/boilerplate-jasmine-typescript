@@ -12,13 +12,11 @@
   "scripts": {
     "test": "jasmine --config=jasmine.json",
     "test:fancy": "jasmine --reporter=jasmine-console-reporter --config=jasmine.json",
-    "coverage": "nyc npm run test && nyc report --reporter=html",
-    "coveralls": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
+    "coverage": "nyc npm run test && nyc report --reporter=html"
   },
   "devDependencies": {
     "@types/jasmine": "^4.0.3",
     "@types/node": "^17.0.39",
-    "coveralls": "^3.1.1",
     "jasmine": "^4.1.0",
     "jasmine-console-reporter": "^3.1.0",
     "nyc": "^15.1.0",

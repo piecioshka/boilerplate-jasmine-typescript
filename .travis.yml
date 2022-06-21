@@ -12,6 +12,3 @@ node_js:
   - "14"
   - "13"
   - "12"
-
-after_script:
-  - npm run coveralls
