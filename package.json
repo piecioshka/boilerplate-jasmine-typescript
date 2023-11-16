@@ -15,7 +15,7 @@
     "coverage": "nyc npm run test && nyc report --reporter=html"
   },
   "devDependencies": {
-    "@types/jasmine": "^5.1.1",
+    "@types/jasmine": "^5.1.2",
     "@types/node": "^20.8.10",
     "jasmine": "^5.1.0",
     "jasmine-console-reporter": "^3.1.0",
