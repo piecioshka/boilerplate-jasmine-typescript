@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint '**/*.ts' --fix",
     "test": "jasmine --config=jasmine.json",
     "test:fancy": "jasmine --reporter=jasmine-console-reporter --config=jasmine.json"
   },
@@ -14,7 +15,12 @@
     "jasmine": "^5.1.0",
     "jasmine-console-reporter": "^3.1.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0"
   },
   "repository": {
     "type": "git",

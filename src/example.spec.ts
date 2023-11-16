@@ -1,27 +1,27 @@
-import "jasmine";
+import 'jasmine';
 
-import { Example } from "./example";
+import { Example } from './example';
 
-describe("Example", () => {
+describe('Example', () => {
   let o: Example;
 
   beforeEach(() => {
     o = new Example();
   });
 
-  it("sync", () => {
-    expect(o.sync()).toEqual("sync");
+  it('sync', () => {
+    expect(o.sync()).toEqual('sync');
   });
 
-  it("asyncCallback", (done) => {
+  it('asyncCallback', (done) => {
     o.asyncCallback((value) => {
-      expect(value).toEqual("asyncCallback");
+      expect(value).toEqual('asyncCallback');
       done();
     });
   });
 
-  it("asyncPromise", async () => {
+  it('asyncPromise', async () => {
     const value = await o.asyncPromise();
-    expect(value).toEqual("asyncPromise");
+    expect(value).toEqual('asyncPromise');
   });
 });

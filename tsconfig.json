@@ -9,5 +9,6 @@
     "removeComments": false,
     "noImplicitAny": true,
     "allowJs": true
-  }
+  },
+  "include": ["./src/**/*.ts"]
 }
