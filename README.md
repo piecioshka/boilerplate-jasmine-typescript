@@ -1,7 +1,5 @@
 # boilerplate-jasmine-typescript
 
-[![travis-ci](https://api.travis-ci.com/piecioshka/boilerplate-jasmine-typescript.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/boilerplate-jasmine-typescript)
-
 🍴 Starter with Jasmine & TypeScript
 
 ## Features
